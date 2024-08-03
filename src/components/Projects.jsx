@@ -24,7 +24,7 @@ const Projects = () => {
     {
       id: 1,
       title: "Laro App",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique itaque nostrum consequatur maiores animi consectetur distinctio obcaecati vitae suscipit? Fugit, perferendis asperiores. Perspiciatis doloremque alias corrupti quae iure dicta suscipit!",
+      desc: "Laro App is an advanced platform designed to enhance your gaming experience by facilitating the discovery and participation in a wide range of active games, leagues, and events. Our service enables users to efficiently find and join gaming opportunities that align with their preferences and interests. Whether you are seeking competitive leagues, exciting tournaments, or casual gaming events, Laro App offers a streamlined and user-friendly interface to connect you with the gaming experiences you desire. Experience the future of gaming engagement with Laro App and elevate your gaming journey.",
       link: "https://www.laro.com.ph/",
       tech: [react, tailwind],
       photo: laro,
@@ -33,8 +33,8 @@ const Projects = () => {
     {
       id: 2,
       title: "Gold's Gym",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique itaque nostrum consequatur maiores animi consectetur distinctio obcaecati vitae suscipit? Fugit, perferendis asperiores. Perspiciatis doloremque alias corrupti quae iure dicta suscipit!",
-      link: "https://www.laro.com.ph/",
+      desc: "Gold’s Gym Philippines stands as the preferred fitness destination for amateur and professional athletes, fitness and beauty contestants, entertainment industry professionals, and individuals dedicated to enhancing their health and overall quality of life.",
+      link: "https://goldsgym.com.ph/",
       tech: [html, css, javascript],
       photo: golds,
       color: "gray"
@@ -42,8 +42,8 @@ const Projects = () => {
     {
       id: 3,
       title: "Casa Granja",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique itaque nostrum consequatur maiores animi consectetur distinctio obcaecati vitae suscipit? Fugit, perferendis asperiores. Perspiciatis doloremque alias corrupti quae iure dicta suscipit!",
-      link: "https://www.laro.com.ph/",
+      desc: "For a distinguished and memorable event in Gapan City, consider booking with Casa Granja. They offers an exceptional setting for a wide range of events, including corporate gatherings, social celebrations, and private functions. ",
+      link: "https://casagranja.ph/?fbclid=IwY2xjawEbLMpleHRuA2FlbQIxMAABHYBdwxQOLITn8M_rHGl2KR48frrjtf0Agr9c-Mga3JJZURJgpizVUFsifA_aem_pOKXt4-GJw8WRfBZxMQIZw",
       tech: [html, css, javascript],
       photo: casa,
       color: "gray"
@@ -51,8 +51,8 @@ const Projects = () => {
     {
       id: 4,
       title: "Ka Tunying",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique itaque nostrum consequatur maiores animi consectetur distinctio obcaecati vitae suscipit? Fugit, perferendis asperiores. Perspiciatis doloremque alias corrupti quae iure dicta suscipit!",
-      link: "https://www.laro.com.ph/",
+      desc: `Ka Tunying’s is a casual tambayan and restoran in one, that gives that "at home feel" and serves filipino cuisine, both traditional and pambihirang home-cooked dishes at all-day merienda, for families and barkadas, professionals, balikbayans and turistas in Metro Manila at probinsya. Tara, kain tayo!`,
+      link: "https://katunyings.com/",
       tech: [html, css],
       photo: katunying,
       color: "gray"
@@ -60,8 +60,8 @@ const Projects = () => {
     {
       id: 5,
       title: "RS Aguillera Welding Shop",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique itaque nostrum consequatur maiores animi consectetur distinctio obcaecati vitae suscipit? Fugit, perferendis asperiores. Perspiciatis doloremque alias corrupti quae iure dicta suscipit!",
-      link: "https://www.laro.com.ph/",
+      desc: "RS Aguillera Welding Shop proudly stands as the first sidecar manufacturer in the municipality of San Jose, Batangas. Their establishment is distinguished by its pioneering role in the local industry, offering expertly crafted sidecars designed to meet the highest standards of quality and durability. With a commitment to excellence and innovation, RS Aguillera Welding Shop has become a trusted name for reliable sidecar solutions, serving both commercial and personal transportation needs in the region. We are dedicated to providing superior craftsmanship and exceptional service to our valued customers.",
+      link: "",
       tech: [react, tailwind],
       photo: aguillera,
       color: "gray"

@@ -30,7 +30,7 @@ const Experience = () => {
             <div className='px-8 text-[14px] sm:text-[17px] sm:w-[600px]'>
                 <p className='font-bold'>Front End Developer Intern</p>
                 <p>February 2024 - May 2024</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fuga adipisci praesentium totam expedita exercitationem quos quibusdam inventore sed. Voluptatibus quaerat consequatur minus qui totam dignissimos voluptatem ut suscipit veniam.</p>
+                <p>8Box Inc. has marked my initial foray into the industry. Over the course of three months, I have gained extensive knowledge and experience in web development. This period has significantly enriched my understanding and skills within the field.</p>
             </div>
             <img className='w-[390px]' src={ojt} alt="" />
         </div>
