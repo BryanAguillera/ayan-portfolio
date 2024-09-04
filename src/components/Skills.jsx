@@ -8,6 +8,8 @@ import react from '../assets/skills/reaact.png'
 import tailwind from '../assets/skills/tailwind.png'
 import python from '../assets/skills/python.png'
 import mongodb from '../assets/skills/mongodb.png'
+import express from '../assets/skills/express.png'
+import nodejs from '../assets/skills/nodejs.png'
 
 const Skills = () => {
 
@@ -58,8 +60,22 @@ const Skills = () => {
       id: 7,
       skill: "Mongo DB",
       photo: mongodb,
-      percent: "60%",
+      percent: "70%",
       color: "#13AA52"
+    },
+    {
+      id: 8,
+      skill: "Node.js",
+      photo: nodejs,
+      percent: "60%",
+      color: "#828282"
+    },
+    {
+      id: 9,
+      skill: "Express.js",
+      photo: express,
+      percent: "60%",
+      color: "#67BA48"
     },
   ]
 
