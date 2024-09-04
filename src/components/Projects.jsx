@@ -16,7 +16,9 @@ import react from '../assets/skills/reaact.png'
 import tailwind from '../assets/skills/tailwind.png'
 import python from '../assets/skills/python.png'
 import mongodb from '../assets/skills/mongodb.png'
-
+import recipe from '../assets/recipeapp.png'
+import express from '../assets/skills/express.png'
+import nodejs from '../assets/skills/nodejs.png'
 
 const Projects = () => {
 
@@ -67,6 +69,18 @@ const Projects = () => {
       color: "gray"
     },
 
+    {
+      id: 6,
+      title: "Recipe App with Authentication",
+      desc: "This project is a full-stack Recipe App that includes authentication and authorization features. Built with ReactJS and Tailwind CSS for the front-end and NodeJS for the back-end, it also utilizes MongoDB for database management. The project demonstrates setting up an Express.js server, using MongoDB Compass for database operations, and creating secure APIs for handling recipes.",
+      link: "",
+      tech: [react, tailwind, nodejs, express, mongodb],
+      photo: recipe,
+      color: "gray"
+    },
+
+
+
   ]
 
   const [one] = useTypewriter({
@@ -96,7 +110,7 @@ const Projects = () => {
       <img 
         key={index} 
         src={tech} 
-        className='w-[30px] h-[30px] mr-1 ml-2' 
+        className='w-[30px] h-[30px] object-cover mr-1 ml-2' 
       />
     ));
   };
