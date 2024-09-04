@@ -32,8 +32,18 @@ const Projects = () => {
       photo: laro,
       color: "gray"
     },
+
     {
       id: 2,
+      title: "Recipe App with Authentication",
+      desc: "This project is a full-stack Recipe App that includes authentication and authorization features. Built with ReactJS and Tailwind CSS for the front-end and NodeJS for the back-end, it also utilizes MongoDB for database management. The project demonstrates setting up an Express.js server, using MongoDB Compass for database operations, and creating secure APIs for handling recipes.",
+      link: "",
+      tech: [react, tailwind, nodejs, express, mongodb],
+      photo: recipe,
+      color: "gray"
+    },
+    {
+      id: 3,
       title: "Gold's Gym",
       desc: "Gold’s Gym Philippines stands as the preferred fitness destination for amateur and professional athletes, fitness and beauty contestants, entertainment industry professionals, and individuals dedicated to enhancing their health and overall quality of life.",
       link: "https://goldsgym.com.ph/",
@@ -42,7 +52,7 @@ const Projects = () => {
       color: "gray"
     },
     {
-      id: 3,
+      id: 4,
       title: "Casa Granja",
       desc: "For a distinguished and memorable event in Gapan City, consider booking with Casa Granja. They offers an exceptional setting for a wide range of events, including corporate gatherings, social celebrations, and private functions. ",
       link: "https://casagranja.ph/?fbclid=IwY2xjawEbLMpleHRuA2FlbQIxMAABHYBdwxQOLITn8M_rHGl2KR48frrjtf0Agr9c-Mga3JJZURJgpizVUFsifA_aem_pOKXt4-GJw8WRfBZxMQIZw",
@@ -51,7 +61,7 @@ const Projects = () => {
       color: "gray"
     },
     {
-      id: 4,
+      id: 5,
       title: "Ka Tunying",
       desc: `Ka Tunying’s is a casual tambayan and restoran in one, that gives that "at home feel" and serves filipino cuisine, both traditional and pambihirang home-cooked dishes at all-day merienda, for families and barkadas, professionals, balikbayans and turistas in Metro Manila at probinsya. Tara, kain tayo!`,
       link: "https://katunyings.com/",
@@ -60,7 +70,7 @@ const Projects = () => {
       color: "gray"
     },
     {
-      id: 5,
+      id: 6,
       title: "RS Aguillera Welding Shop",
       desc: "RS Aguillera Welding Shop proudly stands as the first sidecar manufacturer in the municipality of San Jose, Batangas. Their establishment is distinguished by its pioneering role in the local industry, offering expertly crafted sidecars designed to meet the highest standards of quality and durability. With a commitment to excellence and innovation, RS Aguillera Welding Shop has become a trusted name for reliable sidecar solutions, serving both commercial and personal transportation needs in the region. We are dedicated to providing superior craftsmanship and exceptional service to our valued customers.",
       link: "",
@@ -68,19 +78,6 @@ const Projects = () => {
       photo: aguillera,
       color: "gray"
     },
-
-    {
-      id: 6,
-      title: "Recipe App with Authentication",
-      desc: "This project is a full-stack Recipe App that includes authentication and authorization features. Built with ReactJS and Tailwind CSS for the front-end and NodeJS for the back-end, it also utilizes MongoDB for database management. The project demonstrates setting up an Express.js server, using MongoDB Compass for database operations, and creating secure APIs for handling recipes.",
-      link: "",
-      tech: [react, tailwind, nodejs, express, mongodb],
-      photo: recipe,
-      color: "gray"
-    },
-
-
-
   ]
 
   const [one] = useTypewriter({
