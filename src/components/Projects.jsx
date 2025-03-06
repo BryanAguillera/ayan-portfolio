@@ -1,13 +1,13 @@
 import React from 'react'
 import Picture from './Picture'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-import {FaReact, FaHtml5, FaCss3 } from 'react-icons/fa'
-import {IoLogoJavascript } from 'react-icons/io'
-import laro from '../assets/laro.png'
-import golds from '../assets/goldsgym.png'
-import casa from '../assets/casagranja.png'
-import katunying from '../assets/katunying.png'
-import aguillera from '../assets/rsaguillera.png'
+import { FaReact, FaHtml5, FaCss3 } from 'react-icons/fa'
+import { IoLogoJavascript } from 'react-icons/io'
+import laro from '../assets/images/laro.png'
+import golds from '../assets/images/goldsgym.png'
+import casa from '../assets/images/casagranja.png'
+import katunying from '../assets/images/katunying.png'
+import aguillera from '../assets/images/rsaguillera.png'
 import { Link } from 'react-router-dom';
 import html from '../assets/skills/html.png'
 import css from '../assets/skills/css.png'
@@ -16,9 +16,10 @@ import react from '../assets/skills/reaact.png'
 import tailwind from '../assets/skills/tailwind.png'
 import python from '../assets/skills/python.png'
 import mongodb from '../assets/skills/mongodb.png'
-import recipe from '../assets/recipeapp.png'
+import recipe from '../assets/images/recipeapp.png'
 import express from '../assets/skills/express.png'
 import nodejs from '../assets/skills/nodejs.png'
+import { IoMdArrowRoundForward } from "react-icons/io";
 
 const Projects = () => {
 
@@ -80,78 +81,67 @@ const Projects = () => {
     },
   ]
 
-  const [one] = useTypewriter({
-    words: ['Projects'],
-    typeSpeed: 10
-  });
-
-  const [two] = useTypewriter({
-    words: ['List of Projects I have Developed and Contributed To'],
-    typeSpeed: 10
-  });
-
-  const getBackgroundColorClass = (color) => {
-    const colors = {
-      red: 'bg-red-500',
-      blue: 'bg-blue-500',
-      green: 'bg-green-500',
-      purple: 'bg-purple-500',
-      yellow: 'bg-yellow-500',
-      // Add more colors as needed
-    };
-    return colors[color] || 'bg-[#121212]'; // Default color if not found
-  };
-
-  const renderTechIcons = (techArray) => {
-    return techArray.map((tech, index) => (
-      <img 
-        key={index} 
-        src={tech} 
-        className='w-[30px] h-[30px] object-cover mr-1 ml-2' 
-      />
-    ));
-  };
-
-
   return (
-    <div>
-      <div className='bg-[#121212] flex flex-col-reverse items-center justify-center sm:flex-row h-[calc(100vh-112px)] pb-10 pt-10'>
-        <div className='text-center sm:text-start sm:w-[550px] p-5'>
-          <p className='text-red-600 text-[40px]'>{one} <Cursor/></p>
-          <p className='text-[13px] sm:text-[17px] text-white'>{two}</p>
-        </div>
-        <Picture/>
-      </div>
+    <div className='pb-20'>
+      <h1 className='text-9xl font-bold'>PROJECTS</h1>
 
-      {projectData.map(({title, desc, link, tech, photo, color, id}) => (
 
-        <div key={id} className={`border-b-2 border-t-2 pb-6 sm:border-0 sm:p-0 flex flex-col-reverse lg:flex-row items-center justify-evenly text-white sm:pb-10 ${getBackgroundColorClass(color)} text-[13px] sm:text-[17px]`}>
-          <div className='sm:w-[600px] flex flex-col justify-center items-center sm:items-start gap-3 px-8 sm:text-start'>
+      <div className=''>
 
-            <div className='flex flex-col gap-4 items-center sm:items-start'>
-              <p className='font-bold'>{title}</p>
-              <p>{desc}</p>
-              <Link to={link}>Click to Try</Link>
+        <div className='flex border-t-2 py-2 gap-2'>
+          <div className='w-[50%] space-y-2'>
+            <div className='flex justify-between items-center pr-10'>
+              <h1 className='text-3xl font-bold'>LARO APP</h1>
+
+              <IoMdArrowRoundForward className='hover:cursor-pointer' />
+
             </div>
 
-            <div className='flex items-center'>
-              <p>Technology Used: </p>
-              <div className='flex'>
-              {renderTechIcons(tech)}
-              </div>
-            </div>
-
+            <h2 className='text-xl'>2023</h2>
+            <p className='pr-10 text-justify text-sm'>Laro App is an advanced platform designed to enhance your gaming experience by facilitating the discovery and participation in a wide range of active games, leagues, and events. Our service enables users to efficiently find and join gaming opportunities that align with their preferences and interests. Whether you are seeking competitive leagues, exciting tournaments, or casual gaming events, Laro App offers a streamlined and user-friendly interface to connect you with the gaming experiences you desire. Experience the future of gaming engagement with Laro App and elevate your gaming journey.</p>
           </div>
-          <img className='w-[300px] sm:w-[500px]' src={photo} alt="" />
+          <div className='w-[50%] bg-white flex items-center'>
+            <img className='w-full object-cover' src={laro} alt="image" />
+          </div>
         </div>
-      
-      ))}
 
-      
+        <div className='flex border-t-2 py-2 gap-2'>
+          <div className='w-[50%] space-y-2'>
+            <h1 className='text-3xl font-bold'>LARO APP</h1>
+            <h2 className='text-xl'>2023</h2>
+            <p className='pr-10 text-justify text-sm'>Laro App is an advanced platform designed to enhance your gaming experience by facilitating the discovery and participation in a wide range of active games, leagues, and events. Our service enables users to efficiently find and join gaming opportunities that align with their preferences and interests. Whether you are seeking competitive leagues, exciting tournaments, or casual gaming events, Laro App offers a streamlined and user-friendly interface to connect you with the gaming experiences you desire. Experience the future of gaming engagement with Laro App and elevate your gaming journey.</p>
+          </div>
+          <div className='w-[50%] bg-white  flex items-center'>
+            <img className='w-full object-cover' src={aguillera} alt="image" />
+          </div>
+        </div>
+
+        <div className='flex border-t-2 py-2 justify-between gap-2'>
+          <div className='w-[50%] bg-white flex-col'>
+            <img className='w-[90%] object-cover mx-auto' src={aguillera} alt="image" />
+            <div className='w-full space-y-2'>
+              <h1 className='text-3xl font-bold'>LARO APP</h1>
+              <h2 className='text-xl'>2023</h2>
+              <p className='pr-10 text-justify text-sm'>Laro App is an advanced platform designed to enhance your gaming experience by facilitating the discovery and participation in a wide range of active games, leagues, and events. Our service enables users to efficiently find and join gaming opportunities that align with their preferences and interests. Whether you are seeking competitive leagues, exciting tournaments, or casual gaming events, Laro App offers a streamlined and user-friendly interface to connect you with the gaming experiences you desire. Experience the future of gaming engagement with Laro App and elevate your gaming journey.</p>
+            </div>
+          </div>
+          <div className='w-[50%] bg-white flex-col justify-center items-center'>
+            <img className='w-[90%] object-cover mx-auto' src={aguillera} alt="image" />
+            <div className='w-full space-y-2'>
+              <h1 className='text-3xl font-bold'>LARO APP</h1>
+              <h2 className='text-xl'>2023</h2>
+              <p className='pr-10 text-justify text-sm'>Laro App is an advanced platform designed to enhance your gaming experience by facilitating the discovery and participation in a wide range of active games, leagues, and events. Our service enables users to efficiently find and join gaming opportunities that align with their preferences and interests. Whether you are seeking competitive leagues, exciting tournaments, or casual gaming events, Laro App offers a streamlined and user-friendly interface to connect you with the gaming experiences you desire. Experience the future of gaming engagement with Laro App and elevate your gaming journey.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
 
 
     </div>
-    
+
   )
 }
 

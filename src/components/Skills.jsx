@@ -90,7 +90,7 @@ const Skills = () => {
   });
   return (
     <div>
-      <div className='bg-[#121212] flex flex-col-reverse sm:flex-row items-center justify-center h-[calc(100vh-112px)] text-center sm:text-start'>
+      <div className='bg-[#121212] flex flex-col-reverse sm:flex-row items-center justify-center min-h-[calc(100vh-64px)] text-center sm:text-start'>
         <div className='p-5 sm:w-[550px]'>
           <p className='text-red-600 text-[40px]'>{one} <Cursor/></p>
           <p className='sm:text-[17px] text-[13px] text-white'>{two}</p>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import Picture from './Picture';
-import ojt from '../assets/ojt.png'
+import ojt from '../assets/images/ojt.png'
 const Experience = () => {
 
   const [one] = useTypewriter({
@@ -17,7 +17,7 @@ const Experience = () => {
 
   return (
     <div>
-      <div className='bg-[#121212] text-white flex flex-col-reverse sm:flex-row items-center justify-center  h-[calc(100vh-112px)] p-5 text-center sm:text-start'>
+      <div className='bg-[#121212] text-white flex flex-col-reverse sm:flex-row items-center justify-center min-h-[calc(100vh-64px)] p-5 text-center sm:text-start'>
           <div className='sm:w-[550px]'>
             <p className='text-red-600 text-[40px]'>{one} <Cursor/></p>
             <p className='sm:text-[17px] text-[13px] '>{two}</p>

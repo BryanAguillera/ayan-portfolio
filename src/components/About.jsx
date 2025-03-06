@@ -21,9 +21,9 @@ const About = () => {
 
 
   return (
-    <div className='bg-[#121212] sm:h-[calc(100vh-112px)] flex flex-col-reverse items-center justify-center sm:flex-row pt-20 pb-10 sm:p-0'>
+    <div className='bg-[#121212] min-h-[calc(100vh-64px)] sm:h-[calc(100vh-112px)] flex flex-col-reverse items-center justify-center sm:flex-row pt-20 pb-10 sm:p-0'>
       <div className='sm:w-[550px] sm:p-5 px-24 text-center sm:text-start '>
-        <p className='text-red-600 text-[40px] text-wrap'>{one} <Cursor/></p>
+        <p className='text-red-600 text-[40px] text-wrap'>{one} <Cursor /></p>
         <p className='text-[12px]  text-white sm:text-[17px]'>{two}</p>
         <br />
         <p className='text-[12px] sm:text-[17px] text-white'>{three}</p>
@@ -31,8 +31,8 @@ const About = () => {
 
       </div>
 
-      <Picture/>
-      
+      {/* <Picture/> */}
+
     </div>
   )
 }
