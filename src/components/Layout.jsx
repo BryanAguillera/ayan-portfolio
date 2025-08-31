@@ -22,7 +22,7 @@ const Layout = () => {
           <Outlet />
         </div>
       </div>
-      <ul className="fixed right-0 top-0 h-screen flex flex-col items-center justify-around space-y-8 px-4">
+      <ul className="fixed right-0 top-0 h-screen flex-col items-center justify-around space-y-8 px-4 hidden sm:flex">
         {links.map(({ id, link, to }) => (
           <NavLink
             to={to}

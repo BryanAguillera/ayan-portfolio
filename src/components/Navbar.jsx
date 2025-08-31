@@ -33,15 +33,12 @@ const Navbar = () => {
     localStorage.setItem("theme", theme);
   }, [theme]);
   return (
-    <div className="h-48 max-w-[1300px] py-2 flex items-center justify-between mx-auto">
-      <NavLink
-        to={"/"}
-        className="h-full w-auto flex justify-center items-center"
-      >
-        <img src={StarkIndustries} className="w-80" alt="Logo" />
+    <div className="h-48 max-w-[1300px] py-2 flex items-center justify-center md:justify-around lg:justify-between">
+      <NavLink to={"/"}>
+        <img src={StarkIndustries} className="w-80 mx-auto" alt="Logo" />
       </NavLink>
 
-      <p className=" text-center hidden sm:block">Web & App Developer</p>
+      <p className=" text-center hidden md:block">Web & App Developer</p>
 
       {/* <FaRegLightbulb
           onClick={toggleTheme}
