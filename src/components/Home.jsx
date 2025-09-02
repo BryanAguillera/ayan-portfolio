@@ -39,10 +39,10 @@ const Home = () => {
   };
 
   return (
-    <div className="w-full max-w-[1300px] h-[calc(100vh-192px)] flex flex-col justify-start space-y-4 mx-auto">
-      <div className="w-[90%] mx-auto text-center sm:text-left py-10 sm:py-20">
-        <p className="text-lg sm:text-4xl font-medium">Hello web developer,</p>
-        <h1 className="text-4xl sm:text-9xl font-bold">I'm Bryan</h1>
+    <div className="w-full max-w-[1300px] h-[calc(100vh-8rem-4rem)] sm:h-[calc(100vh-12rem)] flex flex-col justify-between mx-auto">
+      <div className="w-[90%] mx-auto text-center sm:text-left py-4 sm:py-7">
+        <p className="text-lg sm:text-xl font-medium">You’ve just entered Stark Industries 2.0 — except it’s run by me,</p>
+        <h1 className="text-4xl sm:text-8xl font-bold">Bryan</h1>
       </div>
 
       <div className="w-[90%] mx-auto flex flex-col sm:flex-row">
@@ -59,14 +59,14 @@ const Home = () => {
             just a spark of Stark-level creativity?
           </span>
         </div>
-        <div className="w-full sm:w-1/2 flex justify-center items-center sm:items-end flex-col p-6 space-y-4">
+        <div className="w-full sm:w-1/2 flex justify-center items-center sm:items-end flex-col p-4 space-y-2">
           <a
             href="/Bryan Aguillera_RESUME_2024_FRONTEND.pdf"
             download="Bryan Aguillera_RESUME_2024_FRONTEND.pdf"
             className="flex items-center space-x-3 cursor-pointer"
           >
             <FaFileAlt className="text-black text-sm" />
-            <p className="font-semibold hover:text-red-500 hover:underline">
+            <p className="text-center font-semibold hover:text-red-500 hover:underline">
               If you want my resume
             </p>
             <span className="text-blue-500">*</span>
@@ -85,7 +85,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex-1 py-10 flex flex-row justify-center items-end space-x-4">
+      <div className="w-[90%] mx-auto py-4 pb-20 sm:pb-4 flex flex-row justify-center items-end space-x-4">
         {links.map((link, index) => {
           const hoverClasses = [
             "hover:bg-red-500 hover:border-red-500",

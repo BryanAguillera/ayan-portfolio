@@ -15,19 +15,33 @@ const Layout = () => {
     },
   ];
   return (
-    <div className="bg-white flex min-h-screen max-w-[1300px] mx-auto">
+    <div className="bg-white flex min-h-screen">
       <div className="flex-1 overflow-y-auto">
         <Navbar />
         <div>
           <Outlet />
         </div>
       </div>
-      <ul className="fixed right-0 top-0 h-screen flex-col items-center justify-around space-y-8 px-4 hidden sm:flex">
+      {/* Desktop navigation - vertical on the right */}
+      <ul className="fixed right-0 top-0 h-screen flex-col items-center justify-around space-y-8 px-4 hidden sm:flex ">
         {links.map(({ id, link, to }) => (
           <NavLink
             to={to}
             key={id}
             className="-rotate-90 cursor-pointer text-red-600 dark:text-[#475569]  hover:scale-105 duration-200 px-2 aria-[current=page]:text-yellow-300 dark:aria-[current=page]:text-red-600"
+          >
+            {link}
+          </NavLink>
+        ))}
+      </ul>
+      
+      {/* Mobile navigation - horizontal at the bottom */}
+      <ul className="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-center items-center space-x-8 py-4 sm:hidden">
+        {links.map(({ id, link, to }) => (
+          <NavLink
+            to={to}
+            key={id}
+            className="cursor-pointer text-red-600 dark:text-[#475569] hover:scale-105 duration-200 px-4 py-2 aria-[current=page]:text-yellow-300 dark:aria-[current=page]:text-red-600 font-medium"
           >
             {link}
           </NavLink>

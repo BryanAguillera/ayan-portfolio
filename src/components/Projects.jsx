@@ -31,7 +31,7 @@ const Projects = () => {
     {
       id: 1,
       title: "RFV ALLIANZ SYSTEM",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+      desc: "A comprehensive enterprise management system that revolutionizes multi-company operations by seamlessly integrating sales and accounting departments. This innovative platform connects five existing companies under one unified ecosystem, automatically generating real-time sales reports while ensuring direct communication between sales and accounting teams. Business owners gain unprecedented visibility through a dedicated mobile application featuring advanced analytics, comprehensive sales tracking, detailed reporting, and centralized management tools for all their companies.",
       link: "",
       tech: [react, tailwind, supabase, expo],
       photo: golds,
@@ -41,7 +41,7 @@ const Projects = () => {
     {
       id: 2,
       title: "WINGS OF ANGELS TRANSPO APP",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+      desc: "An advanced logistics management solution designed for funeral service operations, featuring dual interfaces: a comprehensive web-based management system for administrators and a dedicated mobile application for field technicians. The platform enables efficient task assignment and management, allowing technicians to accept assigned responsibilities and provide real-time status updates throughout the service delivery process. The system includes detailed documentation and tracking capabilities for deceased individuals' transportation, ensuring dignified and professional handling of sensitive operations with complete transparency and accountability.",
       link: "",
       tech: [react, tailwind, firebase, expo, nodejs, express],
       photo: golds,
@@ -51,7 +51,7 @@ const Projects = () => {
     {
       id: 3,
       title: "PARISH CONNECT",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+      desc: "A dynamic church community platform featuring a powerful web-based content management system for administrators and an interactive mobile application for parishioners. The comprehensive admin panel allows full control over church content including announcements, events, daily readings, parish news, and spiritual resources. The mobile app creates an engaging, interactive experience for church members, fostering stronger community connections through seamless access to church activities, schedules, and important communications.",
       link: "",
       tech: [react, tailwind, supabase, expo],
       photo: golds,
@@ -61,7 +61,7 @@ const Projects = () => {
     {
       id: 4,
       title: "TRACK AND TRACE",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+      desc: "A sophisticated web-based shipment tracking system that provides real-time, accurate monitoring of cargo movements from origin to destination. Users receive detailed status updates at every stage of the shipping process, with precise tracking information inputted at each movement checkpoint. The system ensures exceptional accuracy and timeliness through user-driven status updates, delivering comprehensive shipment visibility and reliable delivery tracking for enhanced logistics management.",
       link: "",
       tech: [react, tailwind, supabase, express, nodejs],
       photo: golds,
@@ -72,7 +72,7 @@ const Projects = () => {
     {
       id: 5,
       title: "Simple Solutions",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
+      desc: "A professional showcase website for a premier cleaning services company, featuring an elegant display of comprehensive cleaning solutions and streamlined booking capabilities. The platform highlights the company's full range of services while providing intuitive contact and booking functionality, creating a seamless customer experience from initial inquiry to service scheduling. The website serves as a digital storefront that effectively communicates the company's expertise and facilitates easy client engagement.",
       link: "https://www.simplesolutions.com.ph/",
       tech: [react, tailwind],
       photo: simplesolutions,
@@ -143,8 +143,8 @@ const Projects = () => {
   ];
 
   return (
-    <div className="max-w-[1300px] mx-auto pb-20 px-10 lg:px-0">
-      <h1 className="text-4xl sm:text-9xl font-bold py-5 sm:py-10">PROJECTS</h1>
+    <div className="max-w-[1300px] mx-auto pb-20 px-10 sm:px-20">
+      <h1 className="text-4xl sm:text-8xl font-bold py-5 sm:py-10">PROJECTS</h1>
 
       <div className="">
         {projectData.map((project, index) => (

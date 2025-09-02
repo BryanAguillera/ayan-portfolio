@@ -33,9 +33,9 @@ const Navbar = () => {
     localStorage.setItem("theme", theme);
   }, [theme]);
   return (
-    <div className="h-48 max-w-[1300px] py-2 flex items-center justify-center md:justify-around lg:justify-between">
+    <div className="h-32 w-[90%] mx-auto sm:h-48 max-w-[1300px] py-2 flex items-center justify-center md:justify-around lg:justify-between px-4 sm:px-8 lg:px-20">
       <NavLink to={"/"}>
-        <img src={StarkIndustries} className="w-80 mx-auto" alt="Logo" />
+        <img src={StarkIndustries} className="w-48 sm:w-64 lg:w-80 mx-auto" alt="Logo" />
       </NavLink>
 
       <p className=" text-center hidden md:block">Web & App Developer</p>
