@@ -23,6 +23,10 @@ import nodejs from "../assets/skills/nodejs.png";
 import firebase from "../assets/skills/firebase.png";
 import supabase from "../assets/skills/supabase.png";
 import expo from "../assets/skills/expo.png";
+import parishconnect from "../assets/images/parishconnect.png";
+import rfv from "../assets/images/rfv.png";
+import tnt from "../assets/images/tnt.png";
+import woa from "../assets/images/woa.png";
 
 import { IoMdArrowRoundForward } from "react-icons/io";
 
@@ -34,7 +38,7 @@ const Projects = () => {
       desc: "A comprehensive enterprise management system that revolutionizes multi-company operations by seamlessly integrating sales and accounting departments. This innovative platform connects five existing companies under one unified ecosystem, automatically generating real-time sales reports while ensuring direct communication between sales and accounting teams. Business owners gain unprecedented visibility through a dedicated mobile application featuring advanced analytics, comprehensive sales tracking, detailed reporting, and centralized management tools for all their companies.",
       link: "",
       tech: [react, tailwind, supabase, expo],
-      photo: golds,
+      photo: rfv,
       color: "gray",
       year: "JUNE 2025",
     },
@@ -44,7 +48,7 @@ const Projects = () => {
       desc: "An advanced logistics management solution designed for funeral service operations, featuring dual interfaces: a comprehensive web-based management system for administrators and a dedicated mobile application for field technicians. The platform enables efficient task assignment and management, allowing technicians to accept assigned responsibilities and provide real-time status updates throughout the service delivery process. The system includes detailed documentation and tracking capabilities for deceased individuals' transportation, ensuring dignified and professional handling of sensitive operations with complete transparency and accountability.",
       link: "",
       tech: [react, tailwind, firebase, expo, nodejs, express],
-      photo: golds,
+      photo: woa,
       color: "gray",
       year: "MAY 2025",
     },
@@ -54,7 +58,7 @@ const Projects = () => {
       desc: "A dynamic church community platform featuring a powerful web-based content management system for administrators and an interactive mobile application for parishioners. The comprehensive admin panel allows full control over church content including announcements, events, daily readings, parish news, and spiritual resources. The mobile app creates an engaging, interactive experience for church members, fostering stronger community connections through seamless access to church activities, schedules, and important communications.",
       link: "",
       tech: [react, tailwind, supabase, expo],
-      photo: golds,
+      photo: parishconnect,
       color: "gray",
       year: "MARCH 2025",
     },
@@ -64,7 +68,7 @@ const Projects = () => {
       desc: "A sophisticated web-based shipment tracking system that provides real-time, accurate monitoring of cargo movements from origin to destination. Users receive detailed status updates at every stage of the shipping process, with precise tracking information inputted at each movement checkpoint. The system ensures exceptional accuracy and timeliness through user-driven status updates, delivering comprehensive shipment visibility and reliable delivery tracking for enhanced logistics management.",
       link: "",
       tech: [react, tailwind, supabase, express, nodejs],
-      photo: golds,
+      photo: tnt,
       color: "gray",
       year: "FEB 2025",
     },
