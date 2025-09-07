@@ -41,7 +41,9 @@ const Home = () => {
   return (
     <div className="w-full max-w-[1300px] h-[calc(100vh-8rem-4rem)] sm:h-[calc(100vh-12rem)] flex flex-col justify-between mx-auto">
       <div className="w-[90%] mx-auto text-center sm:text-left py-4 sm:py-7">
-        <p className="text-lg sm:text-xl font-medium">You’ve just entered Stark Industries 2.0 — except it’s run by me,</p>
+        <p className="text-lg sm:text-xl font-medium">
+          You’ve just entered Stark Industries 2.0 — except it’s run by me,
+        </p>
         <h1 className="text-4xl sm:text-8xl font-bold">Bryan</h1>
       </div>
 
@@ -54,15 +56,14 @@ const Home = () => {
             <span className="text-yellow-500"> philanthropist</span>.
           </span>
           <span>
-            {" "}
             So, what brings you here — looking for innovation, collaboration, or
             just a spark of Stark-level creativity?
           </span>
         </div>
         <div className="w-full sm:w-1/2 flex justify-center items-center sm:items-end flex-col p-4 space-y-2">
           <a
-            href="/Bryan Aguillera_RESUME_2024_FRONTEND.pdf"
-            download="Bryan Aguillera_RESUME_2024_FRONTEND.pdf"
+            href="/Bryan Aguillera_RESUME_2025.pdf"
+            download="Bryan Aguillera_RESUME_2025.pdf"
             className="flex items-center space-x-3 cursor-pointer"
           >
             <FaFileAlt className="text-black text-sm" />

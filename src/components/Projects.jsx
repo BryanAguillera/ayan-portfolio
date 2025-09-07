@@ -147,7 +147,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="max-w-[1300px] mx-auto pb-20 px-10 sm:px-20">
+    <div className="max-w-[1300px] mx-auto pb-20 px-5 sm:px-20">
       <h1 className="text-4xl sm:text-8xl font-bold py-5 sm:py-10">PROJECTS</h1>
 
       <div className="">
@@ -170,7 +170,7 @@ const Projects = () => {
               </div>
 
               <h2 className="text-xl">{project.year}</h2>
-              <p className="pr-10 text-justify text-sm">{project.desc}</p>
+              <p className="sm:pr-10 text-justify text-sm">{project.desc}</p>
 
               <div className="flex space-x-2 pt-2 items-center">
                 {project.tech.map((techIcon, techIndex) => (
